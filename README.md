@@ -3,6 +3,8 @@ A implementation of FUNIT using TensorFlow.
 
 This is under experiment now.
 
+I referred to the implementation of [taki0112's FUNIT](https://github.com/taki0112/FUNIT-Tensorflow). see also it.
+
 ## Offical Page, Paper and code
 
 [Few-Shot Unsupervised Image-to-Image Translation(Page)](https://nvlabs.github.io/FUNIT/)
@@ -30,13 +32,13 @@ datasets
 |   │     ├── class1_2.png
 |   │     ├── ...
 |   │     └── class1_i.png
-|   ├── speaker_2
+|   ├── class_2
 |   │     ├── class2_1.png
 |   │     ├── class2_2.jpg
 |   │     ├── ...
 |   │     └── class2_j.png 
 |   ...
-|   └── speaker_N
+|   └── class_N
 |         ├── classN_1.jpg
 |         ├── classN_2.jpg
 |         ├── ...
@@ -48,13 +50,13 @@ datasets_val
 |   │     ├── classN+1_2.png
 |   │     ├── ...
 |   │     └── classN+2_l.png
-|   ├── speaker_N+2
+|   ├── class_N+2
 |   │     ├── classN+2_1.jpg
 |   │     ├── classN+2_2.jpg
 |   │     ├── ...
 |   │     └── classN+2_n.jpg 
 |   ...
-|   └── speaker_M
+|   └── class_M
 |         ├── classM_1.png
 |         ├── classM_2.jpg
 |         ├── ...
@@ -90,4 +92,4 @@ The left two are content images.
 
 The bottom right eight are the output images.
 
-<img src = 'examples/flowers.jpg' width = '400px'>
+<img src = 'examples/flowers.png' width = '640px'>
