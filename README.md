@@ -9,9 +9,9 @@ I referred to the implementation of [taki0112's FUNIT](https://github.com/taki01
 
 [Few-Shot Unsupervised Image-to-Image Translation(Page)](https://nvlabs.github.io/FUNIT/)
 
-[Few-Shot Unsupervised Image-to-Image Translation)Paper](https://arxiv.org/abs/1905.01723)
+[Few-Shot Unsupervised Image-to-Image Translation(Paper)](https://arxiv.org/abs/1905.01723)
 
-[FUNIT](https://github.com/NVlabs/FUNIT)
+[FUNIT(code)](https://github.com/NVlabs/FUNIT)
 
 ## Usage
 1. Put the folder containing the wav files for training in named datasets.
