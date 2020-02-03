@@ -16,9 +16,7 @@ I referred to the implementation of [taki0112's FUNIT](https://github.com/taki01
 ## Usage
 1. Put the folder containing the wav files for training in named datasets.
 
-  Folders are needed 3 or more.
-
-  And Put the folder containing a few wav files for validation in datasets_val.
+  And Put the folder containing a K or more image files for validation in datasets_val.
  
   like this
 
